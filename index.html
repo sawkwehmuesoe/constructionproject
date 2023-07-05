@@ -6,6 +6,8 @@
         <!-- font awesome css 1  -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
         <!-- custom css 1  -->
         <link href="style.css" rel="stylesheet" type="text/css" />
     </head>
@@ -93,11 +95,11 @@
 
         <section id="home" class="home">
 
-            <div class="home-slider">
+            <div class="swiper home-slider">
 
-                <div class="w">
+                <div class="swiper-wrapper">
 
-                    <section class="slide" style="background: url(assets/img/home-slide-1.jpg)">
+                    <section class="swiper-slide slide" style="background: url(assets/img/home-slide-1.jpg)">
                         <div class="content">
                             <h3>we provide best service</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum vero ipsam nam voluptate eum! Quas doloribus ullam qui architecto iste itaque quidem ipsam aut atque laudantium temporibus impedit, amet corporis.</p>
@@ -105,7 +107,7 @@
                         </div>
                     </section>
 
-                    <section class="slide" style="background: url(assets/img/home-slide-2.jpg) no-repeat;">
+                    <section class="swiper-slide slide" style="background: url(assets/img/home-slide-2.jpg) no-repeat;">
                         <div class="content">
                             <h3>making drem come to life</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum vero ipsam nam voluptate eum! Quas doloribus ullam qui architecto iste itaque quidem ipsam aut atque laudantium temporibus impedit, amet corporis.</p>
@@ -113,7 +115,7 @@
                         </div>
                     </section>
 
-                    <section class="slide" style="background: url(assets/img/home-slide-3.jpg) no-repeat;">
+                    <section class="swiper-slide slide" style="background: url(assets/img/home-slide-3.jpg) no-repeat;">
                         <div class="content">
                             <h3>from concept to creation</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum vero ipsam nam voluptate eum! Quas doloribus ullam qui architecto iste itaque quidem ipsam aut atque laudantium temporibus impedit, amet corporis.</p>
@@ -123,13 +125,18 @@
 
                 </div>
 
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+
             </div>
 
         </section>
 
         <!-- End Home Section -->
      
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
+        <!-- custom js  -->
         <script src="./app.js" type="text/javascript"></script>
     </body>
 </html>

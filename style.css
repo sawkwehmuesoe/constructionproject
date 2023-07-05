@@ -440,7 +440,33 @@ section{
 
 /* End Home Section  */
 
-/* to continue arrow  */
+/* Start Swiper Section  */
+.swiper-button-prev,
+.swiper-button-next{
+    height: 6rem;
+    width: 6rem;
+    background-color: var(--white);
+    color: var(--black);
+    border-radius: 50%;
+    opacity: 0.6;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover{
+    background: var(--yellow);
+    opacity: 1;
+    color: var(--white);
+}
+
+.swiper-button-prev{
+    right: 7rem;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after{
+    font-size: 2rem;
+}
+/* End Swiper Section  */
 
 
 
@@ -510,6 +536,18 @@ section{
 
     .login-form{
         width: 90%;
+    }
+
+    .home .slide{
+        justify-content: center;
+    }
+
+    .home .slide .content{
+        text-align: center;
+    }
+
+    .home .slide .content h3{
+        font-size: 3rem;
     }
 
 }
