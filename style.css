@@ -539,7 +539,130 @@ section{
 
 /* End About Us Section */
 
+/* Start Service Section  */
 
+.services{
+    background: var(--light-bg);
+}
+
+.services .box-container{
+    display: gird;
+    grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+    gap: 2rem;
+}
+
+.services .box-container .box{
+    text-align: center;
+    padding: 3rem;
+    background: var(--white);
+    box-shadow: var(--box-shadow);
+    height: 250px;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services .box-container .box:hover{
+    box-shadow: 0.5rem 0.3rem 1rem rgba(0,0,0,0.5);
+}
+
+.services .box-container .box:hover img{
+    transform: translateY(-1rem);
+}
+
+.services .box-container .box img{
+    height: 7rem;
+    margin-bottom: .5rem;
+}
+
+.services .box-container .box h3{
+    font-size: 1.7rem;
+    color: var(--black);
+    text-transform: capitalize;
+    padding: 1rem 0;
+}
+
+.services .box-container .box p{
+    font-size: 1.4rem;
+    color: var(--light-color);
+    line-height: 1.5;
+}
+
+/* End Service Section  */
+
+/* Start Project Section */
+
+.projects{
+    background-color: var(--black);
+}
+
+.projects .heading{
+    color: var(--white);
+}
+
+.projects .box-container{
+    display: gird;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    gap: 2rem;
+}
+
+.projects .box-container .box{
+    cursor: initial;
+    padding: 0;
+}
+
+.projects .box-container .box:hover img{
+    transform: scale(1.1);
+}
+
+.projects .box-container .box .image{
+    height: 40rem;
+    overflow: hidden;
+}
+
+.projects .box-container .box .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.projects .box-container .box .content{
+    display: flex;
+    gap: .5rem;
+    background: var(--white);
+    justify-content: space-between;
+}
+
+.projects .box-container .box .content .infomation{
+    padding: 1rem 2rem;
+}
+
+.projects .box-container .box .content .infomation h3{
+    font-size: 1.7rem;
+    color: var(--black);
+    text-transform: capitalize;
+    padding: 1rem 0;
+    text-align: left;
+}
+
+.projects .box-container .box .content .infomation p{
+    font-size: 1.5rem;
+    color: var(--light-color);
+    line-height: 1.5;
+}
+
+.projects .box-container .box .content i{
+    width: 7.5rem;
+    font-size: 3rem;
+    background: var(--yellow);
+    color: var(--white);
+    cursor: pointer;
+    line-height: 8.5rem;
+}
+
+/* End Project Section */
 
 
 
