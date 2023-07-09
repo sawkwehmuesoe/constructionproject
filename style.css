@@ -788,6 +788,56 @@ section{
 
 /* End Pricing Section  */
 
+/* Start Contact Section  */
+
+.contact{
+    background: var(--black);
+}
+
+.contact .heading{
+    color: var(--white);
+}
+
+.contact .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.contact .row .map{
+    flex: 1 1 41rem;
+    width: 100%;
+}
+
+.contact .row form{
+    flex: 1 1 41rem;
+    background: var(--white);
+    padding: 2rem;
+}
+
+.contact .row form .box{
+    margin: .7rem 0;
+    width: 100%;
+    padding: 1.2rem 1.4rem;
+    background-color: var(--light-bg);
+    border-bottom: var(--border);
+    font-size: 1.6rem;
+    color: var(--light-color);
+}
+
+.contact .row form .box:focus{
+    border-color: yellow;
+}
+
+.contact .row form textarea{
+    height: 15rem;
+    resize: none;
+}
+
+
+/* End Contact Section  */
+
 
 
 
